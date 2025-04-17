@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Location Finder</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    #main-screen { display: none; }
+    input, button { display: block; margin: 10px 0; padding: 10px; width: 100%; max-width: 300px; }
+  </style>
+</head>
+<body>
+  <div id="register-screen">
+    <h2>Ro‘yxatdan o‘tish</h2>
+    <input type="text" id="phone" placeholder="Telefon raqam">
+    <input type="text" id="name" placeholder="Ism">
+    <button id="register-btn">Ro‘yxatdan o‘tish</button>
+  </div>
+
+  <div id="main-screen">
+    <h2>Asosiy Ekran</h2>
+    <button id="add-current">Hozirgi joylashuvni qo‘shish</button>
+    <button id="add-home">Uy manzilini qo‘shish</button>
+    <button id="add-work">Ish joyini qo‘shish</button>
+    <input type="text" id="search-id" placeholder="ID orqali qidirish">
+    <button id="search-btn">Qidirish</button>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
